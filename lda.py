@@ -102,7 +102,7 @@ def eval_lda(processed_dict,start_topic=2,end_topic=5):
     plt.xlabel("Number of Topics")
     plt.ylabel("Coherence Score")
     plt.savefig(f"{output_path}/{csvs[num].split('.')[0]}/" + 'lda.png')
-    plt.show()
+    plt.clear()
     
     # save figure
 
