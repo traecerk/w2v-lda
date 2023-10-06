@@ -6,6 +6,7 @@ from gensim import corpora, models
 import matplotlib.pyplot as plt
 import pyLDAvis.gensim
 
+
 def load_stopwords(stopwords_path):
     stopwords = []
     with open(stopwords_path, "r", encoding="utf-8") as f:
